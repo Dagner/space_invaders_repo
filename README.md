@@ -1,1 +1,3 @@
-# space_invaders_repo
+# Space invaders
+
+### Clon mata marcianos realizado en Python
