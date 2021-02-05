@@ -9,7 +9,9 @@ class PygameApp():
         self.active_scene = None
         self.width = 800
         self.height = 600
+        self.font = None
         self.init_pygame()
+        
 
     def init_pygame(self):
         pygame.init()
@@ -27,7 +29,7 @@ class PygameApp():
         self.active_scene.start()
 
     def load_assets(self):
-        pass
+        self.font = pygame.font.Font('assets/fonts/BARRIO-REGULAR.TTF', 62)
 
     def process_events(self):
         for event in pygame.event.get():
