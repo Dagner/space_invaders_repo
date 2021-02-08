@@ -19,7 +19,7 @@ class PlayScene(Scene):
         pass
 
     def draw(self):
-        self.screen.fill((255, 255, 255))
+        self.screen.fill((255, 0, 255))
         pygame.draw.circle(self.screen,(0, 0, 255), (self.app.width/2, self.app.height/2), 30)
         
     def exit(self):
